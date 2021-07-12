@@ -26,8 +26,10 @@ class CustomLoadingButton extends StatelessWidget {
       this.borderRadius,
       this.disabledColor,
       this.activeColor})
-      : assert((buildCustom != null && text == null) ||
-            (buildCustom == null && text != null)),
+      : assert(
+            (buildCustom != null && text == null) ||
+                (buildCustom == null && text != null),
+            'When the buildCustom is different from null the text value must be nul and look at'),
         assert(height >= 50.0);
 
   _buildWidget(BuildContext context) {
