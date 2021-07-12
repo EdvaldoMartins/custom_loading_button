@@ -7,7 +7,8 @@ dependencies:
   ...
   custom_loading_button: ^0.0.1
 ```
-https://user-images.githubusercontent.com/custom_loading_button/blob/1b4d0d1aec32f1240e5a768c21381d64b24b3046/screenshots/demo1.mp4
+ 
+![](/screenshots/demo1.gif)
 
 # Basic Usage 
 
@@ -37,7 +38,7 @@ There are situations where you want to use a different icon or other widget in p
 ```
 For loading ```CircularProgressIndicator``` is used but you can make the case the if you want to use another widget for example: ```flutter_spinkit```
 
-<img src="/screenshots/image_ch0.png" width="300" height="240">
+![](/screenshots/demo2.gif)
 
 **buildCustomLoading**
 ```dart
