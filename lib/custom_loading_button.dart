@@ -32,7 +32,7 @@ class CustomLoadingButton extends StatelessWidget {
             'When the buildCustom is different from null the text value must be nul and look at'),
         assert(height >= 50.0);
 
-  _buildWidget(BuildContext context) {
+  _buildDefault(BuildContext context) {
     if (buildCustom != null) return buildCustom!(context);
 
     return Text(
@@ -68,7 +68,7 @@ class CustomLoadingButton extends StatelessWidget {
         color: activeColor ?? Theme.of(context).accentColor,
         height: height,
         minWidth: double.infinity / 2,
-        child: (isLoading) ? _buildLoading(context) : _buildWidget(context),
+        child: (isLoading) ? _buildLoading(context) : _buildDefault(context),
         onPressed: (isLoading) ? null : onPressed,
       ),
     );

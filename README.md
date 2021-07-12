@@ -41,6 +41,7 @@ For loading ```CircularProgressIndicator``` is used but you can make the case th
 ![](/screenshots/demo2.gif)
 
 **buildCustomLoading**
+
 ```dart
     CustomLoadingButton(
       text: 'UPLOAD',
