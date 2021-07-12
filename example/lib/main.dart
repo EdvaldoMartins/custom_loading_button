@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   _upload() async {
     setState(() => _isLoading = !_isLoading);
-    await Future.delayed(Duration(seconds: 4));
+    await Future.delayed(Duration(seconds: 2));
     setState(() => _isLoading = !_isLoading);
   }
 
@@ -74,7 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 text: 'UPLOAD',
                 isLoading: _isLoading,
                 borderRadius: BorderRadius.circular(16.0),
-                textStyle: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                textStyle:
+                    TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                 onPressed: _upload,
               ),
             ),
