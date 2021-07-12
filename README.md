@@ -7,7 +7,7 @@ dependencies:
   ...
   custom_loading_button: ^0.0.1
 ```
-https://github.com/EdvaldoMartins/custom_loading_button/blob/1b4d0d1aec32f1240e5a768c21381d64b24b3046/screenshots/demo1.mp4
+https://user-images.githubusercontent.com/custom_loading_button/blob/1b4d0d1aec32f1240e5a768c21381d64b24b3046/screenshots/demo1.mp4
 
 # Basic Usage 
 
