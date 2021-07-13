@@ -12,13 +12,13 @@ class CustomLoadingButton extends StatelessWidget {
   final BorderRadius? borderRadius;
   final bool isLoading;
   final double height;
-  final Widget Function(BuildContext context)? buildCustom;
+  final Widget Function(BuildContext context)? buildCustomTitle;
   final Widget Function(BuildContext context)? buildCustomLoading;
 
   CustomLoadingButton(
       {this.text,
       required this.isLoading,
-      this.buildCustom,
+      this.buildCustomTitle,
       this.buildCustomLoading,
       this.onPressed,
       this.textStyle,
@@ -27,13 +27,13 @@ class CustomLoadingButton extends StatelessWidget {
       this.disabledColor,
       this.activeColor})
       : assert(
-            (buildCustom != null && text == null) ||
-                (buildCustom == null && text != null),
+            (buildCustomTitle != null && text == null) ||
+                (buildCustomTitle == null && text != null),
             'When the buildCustom is different from null the text value must be nul and look at'),
         assert(height >= 50.0);
 
-  _buildDefault(BuildContext context) {
-    if (buildCustom != null) return buildCustom!(context);
+  _buildTitle(BuildContext context) {
+    if (buildCustomTitle != null) return buildCustomTitle!(context);
 
     return Text(
       text!,
@@ -68,7 +68,7 @@ class CustomLoadingButton extends StatelessWidget {
         color: activeColor ?? Theme.of(context).accentColor,
         height: height,
         minWidth: double.infinity / 2,
-        child: (isLoading) ? _buildLoading(context) : _buildDefault(context),
+        child: (isLoading) ? _buildLoading(context) : _buildTitle(context),
         onPressed: (isLoading) ? null : onPressed,
       ),
     );
