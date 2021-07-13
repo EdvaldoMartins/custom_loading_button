@@ -59,7 +59,7 @@ class CustomLoadingButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: borderRadius ?? BorderRadius.circular(8.0),
+      borderRadius: borderRadius,
       child: MaterialButton(
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,

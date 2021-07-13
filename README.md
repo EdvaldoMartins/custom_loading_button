@@ -10,6 +10,10 @@ dependencies:
  
 ![](/screenshots/demo1.gif)
 
+![For more detailed reading](https://medium.com/@edvaldonuniomartins/flutter-customloadingbutton-93a4c76b31d0)
+
+![Also visit customized to see the other customizations](https://github.com/EdvaldoMartins/customized)
+
 # Basic Usage 
 
 ```dart

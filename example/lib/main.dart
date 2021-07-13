@@ -77,6 +77,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 textStyle:
                     TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                 onPressed: _upload,
+                buildCustomLoading: (context) {
+                  return SpinKitThreeBounce(
+                    color: Colors.blue,
+                    size: 24.0,
+                  );
+                },
               ),
             ),
           ],
