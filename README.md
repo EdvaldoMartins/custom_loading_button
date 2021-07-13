@@ -10,11 +10,11 @@ dependencies:
  
 ![](/screenshots/demo1.gif)
 
-![For more detailed reading](https://medium.com/@edvaldonuniomartins/flutter-customloadingbutton-93a4c76b31d0)
+![For more detailed reading](https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/flutter-customloadingbutton-93a4c76b31d0)
 
 ![Also visit customized to see the other customizations](https://github.com/EdvaldoMartins/customized)
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/0" alt="Recent Article 0"> 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/flutter-customloadingbutton-93a4c76b31d0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/flutter-customloadingbutton-93a4c76b31d0" alt="Flutter - CustomLoadingButton"> 
 
 # Basic Usage 
 
