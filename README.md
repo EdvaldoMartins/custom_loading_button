@@ -14,6 +14,8 @@ dependencies:
 
 ![Also visit customized to see the other customizations](https://github.com/EdvaldoMartins/customized)
 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@edvaldonuniomartins/0" alt="Recent Article 0"> 
+
 # Basic Usage 
 
 ```dart
